@@ -1,0 +1,739 @@
+html {
+    background-color: #DFF2EB;
+    font-family: "Mali", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    height: 100vh;
+    margin: 0.5rem;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background-color: #4A628A;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.cam-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 8;
+    grid-row: span 1;
+    background-color: #DFF2EB;
+    border: 2px solid black;
+    border-radius: inherit;
+    font-size: 1rem;
+    color: #2A3335;
+}
+
+.cam-cam {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column: span 2;
+    grid-row: span 7;
+    gap: inherit;
+    padding: inherit;
+    background-color: #DFF2EB;
+    border: 2px solid black;
+    border-radius: inherit;
+}
+
+.cam-cam-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+    grid-row: span 1;
+    font-size: 1.2rem;
+    border-radius: inherit;
+}
+
+.cam-cam-text {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    grid-column: span 1;
+    grid-row: span 9;
+    gap: inherit;
+    padding: inherit;
+    border-radius: inherit;
+}
+
+.cam-cam-text-1 > p {
+    margin: 0.5rem;
+}
+
+.cam-cam-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+    grid-row: span 2;
+    background-image: url(images/Forest\ of\ Teeth.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    border-radius: inherit;
+}
+
+.cam-mc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: inherit;
+    padding: inherit;
+    grid-column: span 3;
+    grid-row: span 4;
+    background-color: #DFF2EB;
+    border: 2px solid black;
+    border-radius: inherit;
+    font-size: 1rem;
+}
+
+.cam-mc-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 3;
+    grid-row: span 1;
+    border-radius: inherit;
+    font-size: 1.2rem;
+}
+
+.cam-mc-char {
+    display: flex;
+    padding: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: span 1;
+    grid-row: span 4;
+    border: inherit;
+    border-radius: inherit;
+}
+
+.cam-mc-char-1 {
+    background-image: url(images/Leonnin.jpg);
+}
+
+.cam-mc-char-2 {
+    background-image: url(images/Cate\ Windrunner.jpg);
+}
+
+.cam-mc-char-3 {
+    background-image: url(images/Raven\ Silvarion.jpg);
+}
+
+.cam-mc-char > p {
+    justify-content: left;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.cam-sc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: inherit;
+    padding: inherit;
+    grid-column: span 3;
+    grid-row: span 4;
+    background-color: #DFF2EB;
+    border: 2px solid black;
+    border-radius: inherit;
+    font-size: 1rem;
+}
+
+.cam-sc-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 3;
+    grid-row: span 1;
+    border-radius: inherit;
+    font-size: 1.2rem;
+}
+
+.cam-sc-char {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/Oak\,\ Ash\ and\ Thorn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: span 3;
+    grid-row: span 4;
+    border: 2px solid black;
+    border-radius: inherit;
+}
+
+.cam-sl {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: inherit;
+    padding: inherit;
+    grid-column: span 2;
+    grid-row: span 3;
+    background-color: #DFF2EB;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.cam-sl-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+    grid-row: span 1;
+    border-radius: inherit;
+    font-size: 1.2rem;
+}
+
+.cam-sl-sl {
+    display: flex;
+    background-image: url(images/Spearhead\ Landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+    grid-row: span 3;
+    border: inherit;
+    border-radius: inherit;
+}
+
+.cam-ui {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: inherit;
+    padding: inherit;
+    grid-column: span 2;
+    grid-row: span 3;
+    background-color: #DFF2EB;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.cam-ui-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+    grid-row: span 1;
+    border-radius: inherit;
+    font-size: 1.2rem;
+}
+
+.cam-ui-ui {
+    display: flex;
+    background-image: url(images/Unknown\ Island.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+    grid-row: span 3;
+    border: inherit;
+    border-radius: inherit;
+}
+
+.cam-m {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: inherit;
+    padding: inherit;
+    grid-column: span 2;
+    grid-row: span 3;
+    background-color: #DFF2EB;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.cam-m-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+    grid-row: span 1;
+    border-radius: inherit;
+    font-size: 1.2rem;
+}
+
+.cam-m-monsters {
+    display: flex;
+    background-image: url(images/Monsters.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+    grid-row: span 3;
+    border: inherit;
+    border-radius: inherit;
+}
+
+/* Mobile Phones and Small Tablets */
+@media (max-width: 480px) and (min-width: 240px) {
+    .container {
+        width: auto;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(32, 1fr);
+    }
+
+    .cam-name {
+        grid-column: span 1;
+        grid-row: span 1;
+        text-align: center;
+    }
+
+    .cam-cam {
+        grid-column: span 1;
+        grid-row: span 8;
+    }
+
+    .cam-mc {
+        grid-column: span 1;
+        grid-row: span 7;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+    }
+
+    .cam-mc-title {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .cam-mc-char {
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+
+    .cam-sc {
+        grid-column: span 1;
+        grid-row: span 4;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-sc-title {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .cam-sc-char {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+
+    .cam-sl {
+        grid-column: span 1;
+        grid-row: span 4;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-sl-title {
+        grid-column: span 1;
+        grid-row: span 1;
+
+    }
+    
+    .cam-sl-sl {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+
+    .cam-ui {
+        grid-column: span 1;
+        grid-row: span 4;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-ui-title {
+        grid-column: span 1;
+        grid-row: span 1;
+
+    }
+    
+    .cam-ui-ui {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+
+    .cam-m {
+        grid-column: span 1;
+        grid-row: span 4;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-m-title {
+        grid-column: span 1;
+        grid-row: span 1;
+
+    }
+    
+    .cam-m-monsters {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+}
+
+/* Large Tablets and Ipads */
+@media (max-width: 800px) and (min-width: 481px) {
+    .container {
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(20, 1fr);
+    }
+
+    .cam-name {
+        grid-column: span 2;
+        grid-row: span 1;
+        text-align: center;
+    }
+
+    .cam-cam {
+        grid-column: span 2;
+        grid-row: span 5;
+    }
+
+    .cam-mc {
+        grid-column: span 2;
+        grid-row: span 4;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    .cam-mc-title {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+    
+    .cam-mc-char {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .cam-mc-char-3 {
+        grid-column: span 4;
+        grid-row: span 2;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .cam-sc {
+        grid-column: span 1;
+        grid-row: span 3;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-sc-title {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .cam-sc-char {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+
+    .cam-sl {
+        grid-column: span 1;
+        grid-row: span 3;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-sl-title {
+        grid-column: span 1;
+        grid-row: span 1;
+
+    }
+    
+    .cam-sl-sl {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+
+    .cam-ui {
+        grid-column: span 1;
+        grid-row: span 3;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-ui-title {
+        grid-column: span 1;
+        grid-row: span 1;
+
+    }
+    
+    .cam-ui-ui {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+
+    .cam-m {
+        grid-column: span 1;
+        grid-row: span 3;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-m-title {
+        grid-column: span 1;
+        grid-row: span 1;
+
+    }
+    
+    .cam-m-monsters {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+}
+
+/* Large Wide Tablets and Laptops */
+@media (max-width: 1200px) and (min-width: 801px) {
+    .container {
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(21, 1fr);
+    }
+
+    .cam-name {
+        grid-column: span 2;
+        grid-row: span 1;
+        text-align: center;
+    }
+
+    .cam-cam {
+        grid-column: span 2;
+        grid-row: span 4;
+    }
+
+    .cam-mc {
+        grid-column: span 2;
+        grid-row: span 5;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+    .cam-mc-title {
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    
+    .cam-mc-char {
+        grid-column: span 1;
+        grid-row: span 7;
+        background-position: center;
+    }
+
+    .cam-sc {
+        grid-column: span 1;
+        grid-row: span 3;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-sc-title {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .cam-sc-char {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+
+    .cam-sl {
+        grid-column: span 1;
+        grid-row: span 3;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-sl-title {
+        grid-column: span 1;
+        grid-row: span 1;
+
+    }
+    
+    .cam-sl-sl {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+
+    .cam-ui {
+        grid-column: span 1;
+        grid-row: span 3;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-ui-title {
+        grid-column: span 1;
+        grid-row: span 1;
+
+    }
+    
+    .cam-ui-ui {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+
+    .cam-m {
+        grid-column: span 1;
+        grid-row: span 3;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-m-title {
+        grid-column: span 1;
+        grid-row: span 1;
+
+    }
+    
+    .cam-m-monsters {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+}
+
+/* Large Wide Tablets and Laptops */
+@media (max-width: 1600px) and (min-width: 1201px) {
+    .container {
+        height: auto;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(15, 1fr);
+    }
+
+    .cam-name {
+        grid-column: span 4;
+        grid-row: span 1;
+        text-align: center;
+    }
+
+    .cam-cam {
+        grid-column: span 2;
+        grid-row: span 9;
+    }
+
+    .cam-mc {
+        grid-column: span 2;
+        grid-row: span 9;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+    .cam-mc-title {
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    
+    .cam-mc-char {
+        grid-column: span 1;
+        grid-row: span 7;
+        background-position: center;
+    }
+
+    .cam-sc {
+        grid-column: span 1;
+        grid-row: span 5;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-sc-title {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .cam-sc-char {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+
+    .cam-sl {
+        grid-column: span 1;
+        grid-row: span 5;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-sl-title {
+        grid-column: span 1;
+        grid-row: span 1;
+
+    }
+    
+    .cam-sl-sl {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+
+    .cam-ui {
+        grid-column: span 1;
+        grid-row: span 5;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-ui-title {
+        grid-column: span 1;
+        grid-row: span 1;
+
+    }
+    
+    .cam-ui-ui {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+
+    .cam-m {
+        grid-column: span 1;
+        grid-row: span 5;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cam-m-title {
+        grid-column: span 1;
+        grid-row: span 1;
+
+    }
+    
+    .cam-m-monsters {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-position: center;
+    }
+}
